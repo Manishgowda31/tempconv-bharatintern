@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>【Ｔｅｍｐｅｒａｔｕｒｅ　Ｃｏｎｖｅｒｔｅｒ】</h1>
+        <div class="input-container">
+            <label for="celsius">Celsius:</label>
+            <input type="number" id="celsius" oninput="convert('celsius')" />
+        </div>
+        <div class="input-container">
+            <label for="fahrenheit">Fahrenheit:</label>
+            <input type="number" id="fahrenheit" oninput="convert('fahrenheit')" />
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
